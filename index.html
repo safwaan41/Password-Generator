@@ -1,22 +1,67 @@
 <!DOCTYPE html>
 <html>
 <head>    
-    <meta name="viewport" content="width=device-width, inital-scale=1.0">
-    <title>Random Password Generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Password Generator
+    </title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="container">
-    <h1>
-        Generate a <br> Random Password
-    </h1>
-    <div class="display">
-        <input type="text" id="password" placeholder="Password">
-        <img src="/Password-Generator/assets/" alt="placeholder"
-    </div>
-</div>
+    <main>
+        <h2>
+            Password Generator
+        </h2>
 
+        <section class="resultsContainer">
+            <span id="result"></span>
+            
+        </section>
 
+        <section>
+            <h4>
+                <h2>
+                    Password length
+                </h2>
+                <input type="text" id="length"/>
+            </h4>
+
+            <h4>
+                <label>
+                    Numbers
+                </label>
+                <input type="checkbox" id="numbers"/>
+            </h4>
+
+            <h4>
+                <label>
+                    Uppercase Letters
+                </label>
+                <input type="checkbox" id="uppercase"/>
+            </h4>
+
+            <h4>
+                <label>
+                    Lowercase Letters
+                </label>
+                <input type="checkbox" id="lowercase"/>
+            </h4>
+
+            <h4>
+                <label>
+                    Symbols
+                </label>
+                <input type="checkbox" id="symbols" />
+            </h4>
+
+        </section>
+        <button id="generate">
+            Password
+        </button>
+    </main>
+    
+
+<script src="script.js"></script>
 
 </body>
 </html>
