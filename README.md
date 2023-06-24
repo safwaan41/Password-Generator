@@ -12,3 +12,4 @@ link to github
 https://github.com/safwaan41/Password-Generator
 
 link to deployed website
+https://safwaan41.github.io/Password-Generator/
